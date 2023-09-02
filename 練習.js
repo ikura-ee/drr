@@ -4,4 +4,4 @@ enemy.種族 = "陰獣"
 enemy.HP = 1000
 enemy.AT = 600
 
-for ( i = 0,
+console.log(enemy)
