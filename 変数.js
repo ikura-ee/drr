@@ -57,4 +57,9 @@ for ( i = 0; i < りほたんリスト.length; i++) {
 
 console.log(人数)
 
-//
+//if ~ else
+if（条件1) {
+} else if (条件2) {
+} else if (条件3) {
+} else {
+}
