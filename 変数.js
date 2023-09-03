@@ -127,7 +127,7 @@ var buttle =["buttle1","buttle2","buttle3","buttle4","buttle5",];
 
 for ( i = 0; i < buttle.length; i++) {
   console.log(i+"回目の戦闘開始")
-  if(i === 1) {
+  
     ケンシロウ1.HP -= 9999;
     ケンシロウ1.AT -= 9999;
     ケンシロウ2.HP -= 9999;
@@ -140,7 +140,6 @@ for ( i = 0; i < buttle.length; i++) {
     ケンシロウ5.AT -= 9999;
     りほたん.HP +=9999;
   　りほたん.AT +=9999;
-  }
 }
 
 console.log(ケンシロウ1);
@@ -149,3 +148,5 @@ console.log(ケンシロウ3);
 console.log(ケンシロウ4);
 console.log(ケンシロウ5);
 console.log(りほたん);
+
+
