@@ -5,3 +5,6 @@ enemy.HP = 1000
 enemy.AT = 600
 
 console.log(enemy)
+
+for ( i = 0; enemy.length;i++);
+if ( 0==6,
