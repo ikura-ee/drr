@@ -178,3 +178,38 @@ console.log(ケンシロウ3);
 console.log(ケンシロウ4);
 console.log(ケンシロウ5);
 console.log(りほたん);
+
+
+
+//ダメージ分・ATに転化
+var りほたん = { 種族: "天使",HP:9999999,AT:9999999};
+var ケンシロウ1 = {種族:"陰獣",HP:1000,AT:600};
+var ケンシロウ2 = {種族:"陰獣",HP:1000,AT:600};
+var ケンシロウ3 = {種族:"陰獣",HP:1000,AT:600};
+var ケンシロウ4 = {種族:"陰獣",HP:1000,AT:600};
+var ケンシロウ5 = {種族:"陰獣",HP:1000,AT:600};
+var buttle =["buttle1","buttle2","buttle3","buttle4","buttle5",];
+
+for ( i = 0; i < buttle.length; i++) {
+  console.log(i+"回目の戦闘開始")
+  
+    ケンシロウ1.HP -= 9999;
+    ケンシロウ2.HP -= 9999;
+    ケンシロウ3.HP += 9999;
+    ケンシロウ4.HP -= 9999;
+    ケンシロウ5.HP -= 9999;
+  if(i === 4){
+    りほたん.AT +=39996;
+  }
+}
+
+console.log(ケンシロウ1);
+console.log(ケンシロウ2);
+console.log(ケンシロウ3);
+console.log(ケンシロウ4);
+console.log(ケンシロウ5);
+console.log(りほたん);
+
+
+
+
