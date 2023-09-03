@@ -25,3 +25,31 @@ var 大五郎HP = document.createElement("div");
     // 大五郎HPを5減らす
     大五郎HP.textContent -= 5;
 });
+
+
+//ボタンに属性を追加
+var 新HTML = document.createElement("div");
+新HTML.style.zIndex = 999999;
+新HTML.style.position = "absolute";
+新HTML.style.backgroundColor = "white";
+新HTML.style.top = "0px";
+新HTML.style.left = "0px";
+新HTML.style.color = "black";
+新HTML.style.padding = "5px";
+document.body.prepend(新HTML);
+
+var りほたん攻撃ボタン = document.createElement("div");
+りほたん攻撃ボタン.textContent = "りほたん攻撃ボタン";
+新HTML.append(りほたん攻撃ボタン);
+
+var 種族 = document.createElement("div");
+種族.textContent = "天使";
+新HTML.append(種族);
+
+var 大五郎HP = document.createElement("div");
+大五郎HP.textContent = "500";
+新HTML.append(大五郎HP);
+
+りほたん攻撃ボタン.addEventListener("click", () => {
+    大五郎HP.textContent -= 5;
+});
